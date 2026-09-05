@@ -62,7 +62,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "MERN Stack Developer",
     company: "Dignizant Technologies LLP",
-    period: "Mar 2026 — Present",
+    period: "Mar 2026 — Sep 2026",
     current: true,
     summary:
       "Developing production-ready web applications for company projects, including enterprise POS software and insurance-domain applications.",

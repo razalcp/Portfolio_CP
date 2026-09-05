@@ -102,7 +102,7 @@ export function Experience() {
             <div className="rounded-2xl border border-line bg-surface p-6">
               <h3 className="font-mono text-xs uppercase tracking-[0.18em] text-accent">Training</h3>
               <p className="mt-3 text-sm font-semibold text-white">MERN Stack Developer Training</p>
-              <p className="text-sm text-zinc-500">Brototype · Dec 2023 — Present</p>
+              <p className="text-sm text-zinc-500">Brototype · Dec 2024 — Mar 2026</p>
             </div>
           </div>
         </Reveal>
