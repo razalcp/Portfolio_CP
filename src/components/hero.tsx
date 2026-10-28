@@ -49,7 +49,7 @@ export function Hero() {
             </a>
             <a
               href={site.resumeUrl}
-              download="Razal_CP_Resume.pdf"
+              download="Razal_Nazim_Resume.pdf"
               className="flex items-center gap-2 rounded-full border border-line-strong px-6 py-3 text-sm font-medium text-zinc-100 transition-colors hover:border-accent/50 hover:text-accent"
             >
               <DownloadIcon width={16} height={16} />
@@ -85,7 +85,7 @@ export function Hero() {
             </a>
             <span className="flex items-center gap-1.5 font-mono text-xs text-zinc-500">
               <MapPinIcon width={14} height={14} />
-              India
+              Dubai,UAE
             </span>
           </div>
         </Reveal>

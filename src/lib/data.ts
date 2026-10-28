@@ -1,10 +1,10 @@
 export const site = {
-  name: "Razal CP",
+  name: "CP Razal Nazim",
   fullName: "CP Razal Nazim",
-  role: "Full Stack Developer",
+  role: "Full Stack Developer(MERN)",
   location: "India",
   email: "cprazalnazim@gmail.com",
-  phone: "+91 9447887477",
+  phone: "+971 542154717",
   github: "https://github.com/razalcp",
   linkedin: "https://www.linkedin.com/in/cp-razal-nazim-748b3b117",
   oldPortfolio: "https://cp-razal-nazim-ouo7izg.gamma.site/",
@@ -15,7 +15,7 @@ export const hero = {
   eyebrow: "Full Stack Developer — MERN",
   headline: ["Building software", "that ships to production."],
   statement:
-    "I'm a full-stack developer working with React, Next.js, Node.js and NestJS. At Dignizant Technologies I build production web applications — from enterprise stock and billing systems to insurance software used in collaboration with an international client.",
+    "I'm a full-stack developer with 2 years experience in working with React, Next.js, Node.js and NestJS. At Dignizant Technologies I build production web applications — from enterprise stock and billing systems to insurance software used in collaboration with an international client.",
   stackLine: "React · Next.js · Node.js · NestJS · Prisma · SQL · MongoDB",
 } as const;
 
@@ -25,12 +25,20 @@ export const about = {
     "Before transitioning into software, I spent years working across engineering and client-facing roles — as a Project Engineer on telecom rollouts for Nokia, at Accenture, and internationally with ADNOC in Abu Dhabi. That background shapes how I build software today: with clear communication, attention to operational detail, and a focus on real business outcomes rather than just code.",
     "My work spans enterprise POS systems, insurance applications, e-commerce platforms and real-time booking systems — including deploying cloud-native solutions on AWS (EC2, S3) and collaborating directly with clients across time zones.",
   ],
+  // facts: [
+  //   { label: "Currently", value: "MERN Stack Developer @ Dignizant Technologies" },
+  //   { label: "Based in", value: "India" },
+  //   { label: "Education", value: "B.E. Electronics & Communication, Coorg Institute of Technology" },
+  //   { label: "Training", value: "MERN Stack Developer Training, Brototype" },
+  //   { label: "Cloud", value: "AWS EC2 · AWS S3 · Vercel" },
+  // ],
   facts: [
-    { label: "Currently", value: "MERN Stack Developer @ Dignizant Technologies" },
-    { label: "Based in", value: "India" },
-    { label: "Education", value: "B.E. Electronics & Communication, Coorg Institute of Technology" },
+    { label: "CURRENT STATUS", value: "Open to Opportunities" },
+    { label: "BASED IN", value: "Dubai, United Arab Emirates" },
+    { label: "VISA STATUS", value: "UAE Visit Visa" },
     { label: "Training", value: "MERN Stack Developer Training, Brototype" },
-    { label: "Cloud", value: "AWS EC2 · AWS S3 · Vercel" },
+    { label: "Education", value: "B.E. Electronics & Communication, Coorg Institute of Technology" },
+    { label: "TECHNOLOGIES & CLOUD", value: "React.js · Node.js · Next.js · AWS EC2 · AWS S3" },
   ],
 } as const;
 
@@ -62,7 +70,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "MERN Stack Developer",
     company: "Dignizant Technologies LLP",
-    period: "Mar 2026 — Sep 2026",
+    period: "Mar 2026 — Aug 2026",
     current: true,
     summary:
       "Developing production-ready web applications for company projects, including enterprise POS software and insurance-domain applications.",
@@ -77,7 +85,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "MERN Stack Intern",
     company: "Brototype",
-    period: "Jul 2024 — Mar 2026",
+    period: "Aug 2024 — Mar 2026",
     summary:
       "Intensive full-stack training program building industry-level applications under professional mentorship.",
     points: [
@@ -126,6 +134,10 @@ export const professionalProjects: Project[] = [
       "Frontend, backend and database integration",
     ],
     stack: ["Next.js", "NestJS", "Prisma", "SQL"],
+    link: {
+      href: "https://www.aksharpos.com/",
+      label: "Live Demo",
+    },
     badges: ["Production", "Built at Dignizant Technologies"],
   },
   {
@@ -140,6 +152,10 @@ export const professionalProjects: Project[] = [
       "Ongoing maintenance and feature development",
     ],
     stack: ["Next.js", "NestJS", "Prisma", "SQL"],
+    link: {
+      href: "https://insurance.subtraid.com/sign-in?redirect_url=https%3A%2F%2Finsurance.subtraid.com%2F",
+      label: "Live Demo",
+    },
     badges: ["In Production", "International Client"],
   },
 ];
@@ -176,8 +192,8 @@ export const personalProjects: Project[] = [
     ],
     stack: ["Node.js", "Express.js", "MongoDB", "EJS", "Razorpay"],
     link: {
-      href: "https://github.com/razalcp/ShoeFactory",
-      label: "View on GitHub",
+      href: "https://shoe-factory-nine.vercel.app/",
+      label: "Live Demo",
     },
     badges: ["E-Commerce", "Self-Built"],
   },

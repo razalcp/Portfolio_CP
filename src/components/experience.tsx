@@ -20,17 +20,15 @@ export function Experience() {
             <li key={item.company} className="relative">
               <span
                 aria-hidden
-                className={`absolute left-0 top-7 h-4 w-4 rounded-full border-2 sm:left-1/2 sm:-translate-x-1/2 ${
-                  item.current
+                className={`absolute left-0 top-7 h-4 w-4 rounded-full border-2 sm:left-1/2 sm:-translate-x-1/2 ${item.current
                     ? "border-accent bg-accent shadow-[0_0_12px_rgba(94,234,212,0.6)]"
                     : "border-line-strong bg-base"
-                }`}
+                  }`}
               />
               <Reveal delay={index * 100} className={`pl-9 sm:w-[calc(50%-2.5rem)] sm:pl-0 ${index % 2 === 0 ? "sm:ml-auto" : ""}`}>
                 <article
-                  className={`rounded-2xl border bg-surface p-6 transition-colors hover:border-line-strong sm:p-7 ${
-                    item.current ? "border-accent/25" : "border-line"
-                  }`}
+                  className={`rounded-2xl border bg-surface p-6 transition-colors hover:border-line-strong sm:p-7 ${item.current ? "border-accent/25" : "border-line"
+                    }`}
                 >
                   <div className="flex flex-wrap items-center gap-2.5">
                     <span className="rounded-full border border-line bg-base px-3 py-1 font-mono text-[11px] text-zinc-400">
@@ -38,7 +36,7 @@ export function Experience() {
                     </span>
                     {item.current ? (
                       <span className="rounded-full bg-accent/10 px-3 py-1 font-mono text-[11px] font-medium text-accent">
-                        Current
+                        Last Worked Company
                       </span>
                     ) : null}
                   </div>
@@ -102,7 +100,7 @@ export function Experience() {
             <div className="rounded-2xl border border-line bg-surface p-6">
               <h3 className="font-mono text-xs uppercase tracking-[0.18em] text-accent">Training</h3>
               <p className="mt-3 text-sm font-semibold text-white">MERN Stack Developer Training</p>
-              <p className="text-sm text-zinc-500">Brototype · Dec 2024 — Mar 2026</p>
+              <p className="text-sm text-zinc-500">Brototype · Aug 2024 — Mar 2026</p>
             </div>
           </div>
         </Reveal>

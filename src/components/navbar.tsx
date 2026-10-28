@@ -32,11 +32,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled
           ? "border-b border-line bg-base/80 backdrop-blur-md"
           : "border-b border-transparent bg-transparent"
-      }`}
+        }`}
     >
       <nav
         aria-label="Primary"
@@ -47,7 +46,8 @@ export function Navbar() {
           className="font-mono text-sm font-semibold tracking-tight text-white"
           aria-label="Back to top"
         >
-          razal<span className="text-accent">.cp</span>
+          CP Razal<span className="text-accent"> Nazim</span>
+          {/* razal<span className="text-accent">.cp</span> */}
         </a>
 
         <div className="hidden items-center gap-7 md:flex">
@@ -63,7 +63,7 @@ export function Navbar() {
           <span aria-hidden className="h-4 w-px bg-line-strong" />
           <a
             href={site.resumeUrl}
-            download="Razal_CP_Resume.pdf"
+            download="Razal_Nazim_Resume.pdf"
             className="flex items-center gap-2 rounded-full border border-line-strong px-4 py-1.5 text-sm text-zinc-200 transition-colors hover:border-accent/50 hover:text-accent"
           >
             <DownloadIcon width={15} height={15} />
